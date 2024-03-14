@@ -9,6 +9,8 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { IntPhoneComponent } from './int-phone/int-phone.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SampleComponent } from './performance/components/sample/sample.component';
+import { ForloadingPipe } from './performance/pipes/forloading.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     MapComponent,
     ParentComponent,
     ChildComponent,
-    IntPhoneComponent
+    IntPhoneComponent,
+    SampleComponent,
+    ForloadingPipe
   ],
   imports: [
     BrowserModule,
