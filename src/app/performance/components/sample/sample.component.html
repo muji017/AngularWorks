@@ -2,7 +2,7 @@
 <div>
     <ul>
         <li *ngFor="let data of dataList">
-            {{getDatas(data.name)}}:{{data.name}}
+            {{data.name|forloading}}:{{data.name}}
         </li>
     </ul>
 </div>

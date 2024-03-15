@@ -8,9 +8,11 @@ import { MapComponent } from './map/map.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { IntPhoneComponent } from './int-phone/int-phone.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SampleComponent } from './performance/components/sample/sample.component';
 import { ForloadingPipe } from './performance/pipes/forloading.pipe';
+import { ErrorWidgComponent } from './errorHandling/error-widg/error-widg.component';
+import { MypageComponent } from './errorHandling/mypage/mypage.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ForloadingPipe } from './performance/pipes/forloading.pipe';
     ChildComponent,
     IntPhoneComponent,
     SampleComponent,
-    ForloadingPipe
+    ForloadingPipe,
+    ErrorWidgComponent,
+    MypageComponent
   ],
   imports: [
     BrowserModule,
